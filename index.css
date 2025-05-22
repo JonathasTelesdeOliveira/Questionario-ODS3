@@ -15,7 +15,7 @@ body {
 /* ✅ Faz o conteúdo crescer e empurrar o rodapé */
 main {
     flex: 1;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 /* ✅ Cabeçalho */
@@ -47,11 +47,11 @@ nav a:hover {
 /* ✅ Conteúdo principal */
 .container {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     max-width: 900px;
     margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -65,7 +65,9 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], input[type="number"], select {
+input[type="text"], 
+input[type="number"], 
+select {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
