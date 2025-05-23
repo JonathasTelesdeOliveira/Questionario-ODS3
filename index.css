@@ -16,12 +16,13 @@ body {
 main {
     flex: 1;
     padding: 40px 20px;
+    background-color: #f0f0f0;
 }
 
 /* ✅ Cabeçalho */
 header {
     background-color: #0077b6;
-    padding: 20px;
+    padding: 10px;
     color: white;
     text-align: center;
 }
@@ -55,8 +56,11 @@ nav a:hover {
     margin: auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
+h1{
+    color: #ffffff;
+}
 
-h1, h2 {
+h2 {
     color: #023e8a;
 }
 
