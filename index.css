@@ -42,7 +42,9 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 /* ✅ Conteúdo principal */
 .container {
@@ -114,6 +116,15 @@ input[type="submit"]:hover {
 .btn-formulario:active {
     transform: scale(0.98);
 }
+
+ul.lista-preventiva {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Define o espaço entre cada item */
+    padding-left: 20px; /* Mantém a indentação das bolinhas padrão */
+}
+
+
 
 /* ✅ Rodapé */
 footer {
